@@ -27,7 +27,7 @@ namespace WpfApp1_СМ_пр_1_Гуляева
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Привет группа ИСП");
+
         }
     }
 }

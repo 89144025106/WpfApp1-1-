@@ -5,36 +5,37 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1_СМ_пр_1_Гуляева"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="800" Width="999">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="50*"/>
             <ColumnDefinition Width="200*"/>
-            <ColumnDefinition Width="500*"/>
-            <ColumnDefinition Width="91*"/>
+            <ColumnDefinition Width="1000*"/>
+            <ColumnDefinition Width="100*"/>
         </Grid.ColumnDefinitions>
-        <WrapPanel Grid.ColumnSpan="4">
+        <WrapPanel Grid.ColumnSpan="10">
             <Label Content="Последние документы" />
             <Button Content="Открыть" Width=" 70" Height="30" Margin="10 -3 1 20"  HorizontalAlignment="Left" Click="Button_Click" />
             <Button Content="Сохронить" Width=" 70" Height="30" Margin="50 -3 1 20"  HorizontalAlignment="Left"/>
             <Button Content="Закрыть" Width=" 70" Height="30" Margin="50 -3 1 20"  HorizontalAlignment="Left"/>
             <Button Content="Обработать" Width=" 70" Height="30" Margin="50 -3 1 20" HorizontalAlignment="Left"/>
             <Button Content="О програме " Width="93" Height="30" Margin="50 -3 1 20"  HorizontalAlignment="Left"/>
-            <Button Content="A" Width="100" Height="100" Canvas.Left="100" Canvas.Top="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="60 30 1 2"  Background="Yellow" Click="Button_Click" />
-            <Button Content="B" Width="100" Height="100" Canvas.Left="100" Canvas.Top="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="55 30 1 2"  Background="Red" />
-            <Button Content="C" Width="100" Height="100" Canvas.Left="100" Canvas.Top="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45 30 1 2"   Background="Green" />
-            <Button Content="D" Width="100" Height="100" Canvas.Left="100" Canvas.Top="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="35 30 1 2"   Background="Blue" />
-            <Button Content="E" Width="100" Height="100" Canvas.Left="100" Canvas.Top="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="35 30 1 2"   Background="Gray" />
-            <Button Content="F" Width="100" Height="100" Canvas.Left="100" Canvas.Top="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45 30 1 2"    Background="PeachPuff" />
-            <Label Content="1.txt" Width="50" Height="50" Canvas.Left="50" Canvas.Top="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-144 -135 1 3"/>
-            <Label Content="2.txt" Width="50" Height="50" Canvas.Left="50" Canvas.Top="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-144 -110 2 3"/>
-            <Label Content="3.txt" Width="50" Height="50" Canvas.Left="50" Canvas.Top="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-144 -80 2 3"/>
-            <Label Content="4.txt" Width="50" Height="50" Canvas.Left="50" Canvas.Top="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-144 -50 2 3"/>
-            <Label Content="5.txt" Width="50" Height="50" Canvas.Left="50" Canvas.Top="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-144 -18 2 3"/>
-            <Label Content="6.txt" Width="50" Height="50" Canvas.Left="50" Canvas.Top="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-144 5 2 3"/>
-            <Label Content="1.txt" Width="50" Height="50" Canvas.Left="50" Canvas.Top="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-75 -145 1 3"/>
-            <Label Content="2.txt" Width="50" Height="50" Canvas.Left="50" Canvas.Top="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-33 -145 1 3"/>
-            <Label Content="3.txt" Width="50" Height="50" Canvas.Left="50" Canvas.Top="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-3 -145 1 3"/>
+            <Button Content="A" Width="95" Height="95" Canvas.Left="95" Canvas.Top="90" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="195 30 1 2"  Background="Yellow" Click="Button_Click" />
+            <Button Content="B" Width="90" Height="90" Canvas.Left="90" Canvas.Top="90" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="19 30 1 2"  Background="Red" />
+            <Button Content="C" Width="90" Height="90" Canvas.Left="90" Canvas.Top="90" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="19 30 1 2"   Background="Green" />
+            <Button Content="D" Width="90" Height="90" Canvas.Left="90" Canvas.Top="90" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="19 30 1 2"   Background="Blue" />
+            <Button Content="E" Width="90" Height="90" Canvas.Left="90" Canvas.Top="90" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="19 30 1 2"   Background="Gray" />
+            <Button Content="F" Width="90" Height="90" Canvas.Left="90" Canvas.Top="90" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="19 30 1 2"    Background="PeachPuff" />
+            <Label Content="1.txt" Width="50" Height="50" Canvas.Left="50" Canvas.Top="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-800 -2 1 3"/>
+            <Label Content="2.txt" Width="50" Height="50" Canvas.Left="50" Canvas.Top="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-800 23 2 3"/>
+            <Label Content="3.txt" Width="50" Height="50" Canvas.Left="50" Canvas.Top="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-800 50 2 3"/>
+            <Label Content="4.txt" Width="50" Height="50" Canvas.Left="50" Canvas.Top="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-800 70 2 3"/>
+            <Label Content="5.txt" Width="50" Height="50" Canvas.Left="50" Canvas.Top="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-800 89 2 3"/>
+            <Label Content="6.txt" Width="50" Height="50" Canvas.Left="50" Canvas.Top="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-800 105 1 3"/>
+            <Label Content="1.txt" Width="50" Height="50" Canvas.Left="50" Canvas.Top="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-637 1 1 3"/>
+            <Label Content="1.txt" Width="50" Height="50" Canvas.Left="50" Canvas.Top="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-637 1 1 3"/>
+            <Label Content="2.txt" Width="50" Height="50" Canvas.Left="50" Canvas.Top="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-600 1 10 0"/>
+            <Label Content="3.txt" Width="50" Height="50" Canvas.Left="50" Canvas.Top="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-560 1 10 0"/>
         </WrapPanel>
     </Grid>
 </Window>
