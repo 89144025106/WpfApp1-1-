@@ -8,24 +8,25 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="47*"/>
-            <ColumnDefinition Width="157*"/>
-            <ColumnDefinition Width="215*"/>
+            <ColumnDefinition Width="50*"/>
+            <ColumnDefinition Width="200*"/>
+            <ColumnDefinition Width="500*"/>
             <ColumnDefinition Width="91*"/>
         </Grid.ColumnDefinitions>
         <WrapPanel Grid.ColumnSpan="4">
-            <Label Content="Последние документы"/>
-            <Button Content="Открыть" Width=" 60" Height="30" HorizontalAlignment="Left" Click="Button_Click" />
-            <Button Content="Сохронить" Width=" 60" Height="30" HorizontalAlignment="Left"/>
-            <Button Content="Закрыть" Width=" 60" Height="30" HorizontalAlignment="Left"/>
-            <Button Content="Обработать" Width=" 60" Height="30" HorizontalAlignment="Left"/>
-            <Button Content="О програме " Width="83" Height="30" HorizontalAlignment="Left"/>
-            <Button Content="A" Width="80" Height="85" Canvas.Left="10" Canvas.Top="10" HorizontalAlignment="Left" VerticalAlignment="Top"  Background="Yellow" Click="Button_Click" />
-            <Button Content="B" Width="80" Height="85" Canvas.Left="10" Canvas.Top="10" HorizontalAlignment="Left" VerticalAlignment="Top" Background="Red" />
-            <Button Content="C" Width="80" Height="85" Canvas.Left="10" Canvas.Top="10" HorizontalAlignment="Left" VerticalAlignment="Top"  Background="Green" />
-            <Button Content="D" Width="80" Height="85" Canvas.Left="10" Canvas.Top="10" HorizontalAlignment="Left" VerticalAlignment="Top"  Background="Blue" />
-            <Button Content="E" Width="80" Height="85" Canvas.Left="10" Canvas.Top="10" HorizontalAlignment="Left" VerticalAlignment="Top"  Background="Gray" />
-            <Button Content="F" Width="80" Height="85" Canvas.Left="10" Canvas.Top="10" HorizontalAlignment="Left" VerticalAlignment="Top"  Background="PeachPuff" />
+            <Label Content="Последние документы" />
+            <Button Content="Открыть" Width=" 70" Height="30" Margin="10 -3 1 20"  HorizontalAlignment="Left" Click="Button_Click" />
+            <Button Content="Сохронить" Width=" 70" Height="30" Margin="50 -3 1 20"  HorizontalAlignment="Left"/>
+            <Button Content="Закрыть" Width=" 70" Height="30" Margin="50 -3 1 20"  HorizontalAlignment="Left"/>
+            <Button Content="Обработать" Width=" 70" Height="30" Margin="50 -3 1 20" HorizontalAlignment="Left"/>
+            <Button Content="О програме " Width="93" Height="30" Margin="50 -3 1 20"  HorizontalAlignment="Left"/>
+            <Button Content="A" Width="100" Height="100" Canvas.Left="100" Canvas.Top="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50 30 1 3"  Background="Yellow" Click="Button_Click" />
+            <Button Content="B" Width="100" Height="100" Canvas.Left="100" Canvas.Top="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50 30 1 2"  Background="Red" />
+            <Button Content="C" Width="100" Height="100" Canvas.Left="100" Canvas.Top="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50 30 1 2"   Background="Green" />
+            <Button Content="D" Width="100" Height="100" Canvas.Left="100" Canvas.Top="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50 30 1 2"   Background="Blue" />
+            <Button Content="E" Width="100" Height="100" Canvas.Left="100" Canvas.Top="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50 30 1 2"   Background="Gray" />
+            <Button Content="F" Width="100" Height="100" Canvas.Left="100" Canvas.Top="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50 33 1 1"    Background="PeachPuff" />
+            
         </WrapPanel>
     </Grid>
 </Window>
