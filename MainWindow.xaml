@@ -20,13 +20,21 @@
             <Button Content="Закрыть" Width=" 70" Height="30" Margin="50 -3 1 20"  HorizontalAlignment="Left"/>
             <Button Content="Обработать" Width=" 70" Height="30" Margin="50 -3 1 20" HorizontalAlignment="Left"/>
             <Button Content="О програме " Width="93" Height="30" Margin="50 -3 1 20"  HorizontalAlignment="Left"/>
-            <Button Content="A" Width="100" Height="100" Canvas.Left="100" Canvas.Top="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50 30 1 3"  Background="Yellow" Click="Button_Click" />
-            <Button Content="B" Width="100" Height="100" Canvas.Left="100" Canvas.Top="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50 30 1 2"  Background="Red" />
-            <Button Content="C" Width="100" Height="100" Canvas.Left="100" Canvas.Top="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50 30 1 2"   Background="Green" />
-            <Button Content="D" Width="100" Height="100" Canvas.Left="100" Canvas.Top="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50 30 1 2"   Background="Blue" />
-            <Button Content="E" Width="100" Height="100" Canvas.Left="100" Canvas.Top="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50 30 1 2"   Background="Gray" />
-            <Button Content="F" Width="100" Height="100" Canvas.Left="100" Canvas.Top="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50 33 1 1"    Background="PeachPuff" />
-            
+            <Button Content="A" Width="100" Height="100" Canvas.Left="100" Canvas.Top="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="50 30 1 2"  Background="Yellow" Click="Button_Click" />
+            <Button Content="B" Width="100" Height="100" Canvas.Left="100" Canvas.Top="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="55 30 1 2"  Background="Red" />
+            <Button Content="C" Width="100" Height="100" Canvas.Left="100" Canvas.Top="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="55 30 1 2"   Background="Green" />
+            <Button Content="D" Width="100" Height="100" Canvas.Left="100" Canvas.Top="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="55 30 1 2"   Background="Blue" />
+            <Button Content="E" Width="100" Height="100" Canvas.Left="100" Canvas.Top="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="59 30 1 2"   Background="Gray" />
+            <Button Content="F" Width="100" Height="100" Canvas.Left="100" Canvas.Top="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="55 30 1 2"    Background="PeachPuff" />
+            <Label Content="1.txt" Width="50" Height="50" Canvas.Left="50" Canvas.Top="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-145 -135 1 3" />
+            <Label Content="2.txt" Width="50" Height="50" Canvas.Left="50" Canvas.Top="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-145 -110 2 3" />
+            <Label Content="3.txt" Width="50" Height="50" Canvas.Left="50" Canvas.Top="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-145 -80 2 3" />
+            <Label Content="4.txt" Width="50" Height="50" Canvas.Left="50" Canvas.Top="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-145 -50 2 3" />
+            <Label Content="5.txt" Width="50" Height="50" Canvas.Left="50" Canvas.Top="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-145 -18 2 3" />
+            <Label Content="6.txt" Width="50" Height="50" Canvas.Left="50" Canvas.Top="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-145 5 2 3" />
+            <Label Content="1.txt" Width="50" Height="50" Canvas.Left="50" Canvas.Top="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-75 -145 1 3" />
+            <Label Content="2.txt" Width="50" Height="50" Canvas.Left="50" Canvas.Top="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-33 -145 1 3" />
+            <Label Content="3.txt" Width="50" Height="50" Canvas.Left="50" Canvas.Top="50" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-3 -145 1 3" />
         </WrapPanel>
     </Grid>
 </Window>
